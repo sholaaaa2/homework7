@@ -1,0 +1,88 @@
+:root{
+  font-family: serif;
+  margin: auto;
+  background-color: #B3AFAE;
+}
+body{
+  margin: 0;
+  padding:0;
+}
+h2{
+  font-size: 1.8em;
+  text-align: center;
+  width: 45%;
+  font-weight: 500;
+  display: block;
+  margin: auto;
+  margin-top: 65px;
+
+}
+fieldset{
+  width: 360px;
+  height: 490px;
+  border: none;
+  border-radius: 7px;
+  box-shadow: 0 0 5px lightgrey,0 0 5px lightgrey, 0 2px 5px black;
+  padding: 0;
+  margin: auto;
+  background-color: white;
+  margin-top: 40px;
+}
+input[type="email"],input[type="password"]{
+  /* display: inline-block; */
+  width: 70%;
+  border: none;
+  border-bottom: 2px solid #ADADAD;
+  font-size: 0.9rem;
+  display: block;
+  margin: auto;
+  margin-top: 37px;
+  font-family: sans-serif;
+  line-height: 2.3;
+  opacity: 0.6;
+}
+input[type="email"]:focus,input[type="password"]:focus{
+  opacity: 1;
+}
+input[type="password"]{
+  background-image: url(./eye.png);
+  background-repeat: no-repeat;
+  background-size: 10%;
+  background-position: right;
+}
+input[type="submit"]{
+  width: 70%;
+  height: 45px;
+  border: none;
+  background: linear-gradient(to right, #2ACCFA, #AA30FF);
+  border-radius: 26px;
+  padding: 0;
+  font-family: serif;
+  color: white;
+  font-size: 0.9rem;
+  display: block;
+  margin: auto;
+  margin-top: 50px;
+}
+input[type="submit"]:hover{
+  transform: scale(1.05);
+}
+input[type="submit"]:active{
+  transform: scale(0.95);
+}
+div{
+  width: 76%;
+  font-size: 0.8rem;
+  margin: auto;
+  margin-top: 105px;
+}
+a{
+  color: black;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+a:hover{
+  color: blue;
+  text-decoration:  underline;
+}
